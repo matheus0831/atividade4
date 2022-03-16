@@ -1,0 +1,156 @@
+*{
+    border: 0;
+    margin: 0;
+    padding:0;
+}
+/*Importando fonte solicitada*/
+@font-face {
+    font-family: "libre";
+    src: url("LibreBaskerville-Regular.ttf");
+}
+
+/*Organização do corpo do site*/
+body{
+    background-color: #c5dbf2;
+
+}
+
+/*Organização da Nav do site*/
+.navegacao, .mailchimp, .carrinho, .conectar, .cadastro{
+    float:left;
+}
+.navegacao{
+    margin-top: 15px;
+}
+.navegacao a{
+    text-decoration: none;
+    color: #606367;
+    margin-left: 40px;
+}
+.mailchimp{
+    margin-left: 190px;
+    margin-top:5px;
+}
+.carrinho{
+    margin-left:180px;
+    margin-top: 10px;
+}
+.conectar{
+    width:80px;
+    height:30px;
+    padding-top:10px;
+    border: 1px solid #000000;
+    text-align: center;
+    margin-top:5px;
+    margin-left: 20px;
+}
+.conectar p{
+    color: #606367;
+}
+.cadastro{
+    background-color: #007c89;
+    margin-left: 20px;
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 10px;
+    width: 200px;
+    height: 31px;
+}
+.cadastro p{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*Parte da main */
+.texto1{
+    clear: left;
+    width: 300px;
+    margin-left: 300px;
+    padding-top: 200px;
+    font-family: "libre";
+    font-size: 30px;
+}
+.texto2{
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size: 18px;
+    width: 350px;
+    text-align: justify;
+    color: #606367;
+}
+.bloco_rosa{
+    background-color: #F7D5C5;
+    height: 200px;
+    margin-left: 700px;
+    width:400px;
+    margin-top: -190px;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+.tres_pontos{
+    margin-left:5px;
+    float: left;
+}
+.carrinho_rosa{
+    float: left;
+    margin-left: 342px;
+}
+.titulo{
+    font-family: "libre";
+    font-size: 15px;
+    color: #F88F71;
+    clear: left;
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+.embalagem img{
+    width:100%;
+    height: 100%;
+}
+.embalagem{
+    margin-left: 30px;
+    height:130px;
+    width:130px;
+}
+.bloco_branco{
+    position:absolute;
+    height: 180px;
+    width: 220px;
+    border: 1px solid #000000;
+    margin-left: 900px;
+    margin-top: -150px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #000000;
+}
+.titulo_branco{
+    border-bottom: 1px solid #000000;
+    padding-left: 5px;
+    background-color: #EEEEEC;
+    border-radius: 10px;
+}
+.shopping{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.botao{
+    background-color: #007c89;
+    width: 150px;
+    margin: auto;
+    border-radius: 5px;
+}
+.botao p{
+    text-align: center;
+    color: #FFFFFF;
+}
+.saiba_mais{
+    background-color: #007c89;
+    width:130px;
+    height: 50px;
+    text-align: center;
+    margin-left: 300px;
+}
+.saiba_mais p{
+    color: #FFFFFF;
+    padding-top: 15px;
+}
